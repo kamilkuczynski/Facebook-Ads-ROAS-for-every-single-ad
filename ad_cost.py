@@ -9,7 +9,7 @@ my_app_secret = credentials.my_app_secret
 my_access_token = credentials.my_access_token
 
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
-my_account = AdAccount('act_344333272')
+my_account = AdAccount('act_[YOUR_AD_ACCOUNT_ID]')
 
 campaigns = my_account.get_campaigns()
 
